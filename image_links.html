@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Links</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(117, 96, 136);
+  }
+  header, nav, main, footer {
+    margin: 20px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Welcome to Image Links</h1>
+</header>
+<nav>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#menu">Menu</a></li>
+  </ul>
+</nav>
+<main>
+  <section id="home">
+    <h2>Home</h2>
+    <p>Welcome to images! Explore our collection of images related to technology.</p>
+    <a href="https://www.innovapptive.com/blog/technicians-productivity-in-field-service"><img src="techno1.jpg" alt="https://www.innovapptive.com/blog/technicians-productivity-in-field-service"></a>
+  </section>
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <a href="https://www.freepik.com/photos/nature"><img src="nature1.jpeg" alt="Nature 1"></a>
+      <a href="https://www.freepik.com/photos/nature"><img src="nature2.jpg" alt="Nature 2"></a>
+      <a href="https://www.freepik.com/photos/nature"><img src="nature3.jpg" alt="Nature 3"></a>
+    </div>
+  </section>
+  <section id="menu">
+    <h2>Menu</h2>
+    <ul>
+      <li><a href="https://example.com/food1"><img src="food1.jpg" alt="Food 1"> Food 1</a></li>
+      <li><a href="https://example.com/food2"><img src="food2.jpg" alt="Food 2"> Food 2</a></li>
+      <li><a href="https://example.com/food3"><img src="food3.jpeg" alt="Food 3"> Food 3</a></li>
+    </ul>
+  </section>
+</main>
+<footer>
+  <p>&copy; 2024 Image Links. All rights reserved.</p>
+</footer>
+</body>
+</html>
